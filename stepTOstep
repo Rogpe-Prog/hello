@@ -1,0 +1,23 @@
+First:
+  creating your app with: create-react-app hello -----> the example name
+Second:
+  creating your repository in github, example: hello
+ Third:
+  typing commands in your VScode like demonstrante in git to synchronize:
+    . git init
+    . git add
+    . git commit
+    . git remote
+    . git push
+ Fourth:
+  installing via prompt command: npm i gh-pages
+ Fifth:
+  editing file packge.json and input that bellow:
+    "homepage": "https://{YOUR GIT USER}.github.io/{YOUR REPOSITORY}/
+    "prebuild": "npm run build"
+    "deploy": "gh-pages -d build"
+  Sixth:
+    typing in your command prompt: npm run build
+    when finished show the message: "Published"
+    then copy the address and past on the browser
+    
